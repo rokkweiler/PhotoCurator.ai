@@ -1,3 +1,5 @@
+![GitHub Logo](https://github.com/rokkweiler/PhotoCurator.ai/blob/1a9ae3aa92c44c463daf41c2f4ab479f2c9fbb4f/photocuratorai_logo.png)
+
 # PhotoCurator.ai
 PhotoCurator.ai is a personal project aimed at helping you manage and curate your photo collections more efficiently. By leveraging advanced Image Quality Assessment techniques, the trained AI Model automatically filters out the images that don’t quite make the cut and highlights the ones that do. But the real magic lies in how it adapts to your unique taste in photography.
 
