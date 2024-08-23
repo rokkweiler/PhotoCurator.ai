@@ -1,0 +1,36 @@
+Need to change config file 
+dense : 10
+to
+dense : 1
+
+
+##### file (src/handlers/model_builder.py) #####
+
+changed:
+x = Dense(units=self.n_classes, activation='softmax')(x)
+
+to:
+x = Dense(units=1, activation='linear')(x)
+
+
+
+---------------
+
+change:
+from utils.losses import earth_movers_distance
+
+to:
+from tensorflow.keras.losses import MeanSquaredError
+
+---------------
+
+changed:
+def __init__(self, base_model_name, n_classes=10, learning_rate=0.001, dropout_rate=0, loss=earth_movers_distance,
+            decay=0, weights='imagenet'):
+
+to:
+def __init__(self, base_model_name, n_classes=1, learning_rate=0.001, dropout_rate=0, loss=MeanSquaredError(),
+            decay=0, weights='imagenet'):
+
+----------------
+

@@ -1,0 +1,21 @@
+# Ignore files
+data/**/*
+
+# But include directories
+!data/**/
+
+# And include CSV, JSON, and Python files in data/
+!data/**/*.csv
+!data/**/*.json
+!data/**/*.py
+!data/**/*.txt
+
+# Include .gitkeep files to track empty directories
+!*.gitkeep
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Windows shortcut files
+*.lnk

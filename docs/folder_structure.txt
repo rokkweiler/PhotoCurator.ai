@@ -1,0 +1,38 @@
+ryan@SurfacePro9:/mnt/c/Users/ryanr/OneDrive/Documents/Programming/ImageScore$ tree
+.
+├── archive
+│   ├── calculate_image_score_1.py
+│   ├── calculate_image_score_2.py
+│   ├── capture_irfanview_Scoring.py
+│   └── run_image_scoring_script.bat
+├── data
+│   └── images
+│       ├── training_dataset
+│       │   ├── dataset1
+│       │   │   ├── dataset1images.jpg
+│       │   │   ├── dataset1samples.csv
+│       │   │   └── dataset1samples.json
+│       │   ├── dataset2
+│       │   │   ├── dataset2images.jpg
+│       │   │   ├── dataset2samples.csv
+│       │   │   └── dataset2samples.json
+│       │   ├── dataset3
+│       │   │   ├── dataset3images.jpg
+│       │   │   ├── dataset3samples.csv
+│       │   │   └── dataset3samples.json
+│       │   └── dataset4
+│       │       ├── dataset4images.jpg
+│       │       ├── dataset4samples.csv
+│       │       └── dataset4samples.json
+│       └── unrated_dataset
+│           ├── jpeg
+│           │   └── jpeg_files.jpg
+│           └── raw
+├── docs
+│   ├── readme.txt
+│   └── todo.txt
+├── wsl
+│	└── wsl2_ubuntu_image-quality-assessment.lnk
+└── scripts
+    ├── convert_csv_to_json.py
+    └── CSV_to_XMP_ratings.py
