@@ -25,7 +25,7 @@ Unlike some generic photo tools, PhotoCurator.ai is built to learn from you. By 
 Whether you’re into landscapes, portraits, or abstract photography, PhotoCurator.ai can be trained to focus on what’s important to you. It’s not just about technical quality—it’s about the aesthetic and emotional value that only you can define.
 
 
-### How to Get Started
+## How to Get Started
 For now, this project is in its early stages, designed for personal use. But as it grows and improves, it might become something more. If you’re interested in trying it out or even contributing, you’ll find it easy to get started.
 
 * **Train the AI:**
